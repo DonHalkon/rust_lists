@@ -1,6 +1,3 @@
-
-#![allow(unused_variables)]
-fn main() {
 use std::mem;
 
 pub struct List {
@@ -85,5 +82,3 @@ mod test {
         assert_eq!(list.pop(), None);
     }
 }
-}
-
